@@ -81,7 +81,7 @@ footer {
 }
 
 /* Responsive - Mobile Layout */
-@media (max-width: 576px) {
+@media (min-width: 1px) and (max-width: 576px) {
   img {
     width: 100% !important;
   }
@@ -108,7 +108,7 @@ footer {
 }
 
 /* Responsive Layout - Tablet */
-@media (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .half-width img {
     width: 209px;
   }
